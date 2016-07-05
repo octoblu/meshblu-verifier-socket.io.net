@@ -1,23 +1,21 @@
 {
-  "version": "1.0.0-*",
-  "buildOptions": {
-    "emitEntryPoint": true
-  },
-
-  "dependencies": {
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.0"
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true
+    },
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.0"
+        },
+        "SocketIoClientDotNet": "0.9.13"
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": "dnxcore50"
+        }
+    },
+    "tooling": {
+        "defaultNamespace": "MeshbluVerifierSocket.IO.NET"
     }
-  },
-
-  "frameworks": {
-    "netcoreapp1.0": {
-      "imports": "dnxcore50"
-    }
-  },
-
-  "tooling": {
-    "defaultNamespace": "MeshbluVerifierSocket.IO.NET"
-  }
 }
